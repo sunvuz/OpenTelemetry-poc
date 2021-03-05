@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db1048b3-38ea-4dc8-840d-4187f4fcec8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/AuthAdapterMicroServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/config/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/controller/AuthAdapterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/model/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/producer/KafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/repository/AuthAdapterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/java/com/sample/auth/authAdapterMicroService/service/AuthAdapterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authAdapterMicroService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/AuthMicroServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/ShoppingCartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/model/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/producer/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/java/com/sample/cart/shoppingMicroService/producer/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/repository/AuthRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/java/com/sample/auth/authMicroService/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authMicroService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../shoppingCartService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-collector/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-collector/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/accessories/aws-xray-sampling-spec.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/api/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/api/src/main/proto/hello-service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/Appdb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/DefaultCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/Indexes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/Keys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/Tables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/tables/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/tables/daos/PlanetDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/tables/interfaces/IPlanet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/tables/pojos/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/appdb/gen-src/com/softwareaws/xray/examples/appdb/tables/records/PlanetRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend-webflux/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/AnimalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/WebfluxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend-webflux/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend/src/main/java/com/softwareaws/xray/examples/hello/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend/src/main/java/com/softwareaws/xray/examples/hello/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/backend/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/dependencyManagement/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/frontend/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/frontend/src/main/java/com/softwareaws/xray/examples/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/frontend/src/main/java/com/softwareaws/xray/examples/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/frontend/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/lambda-api/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/lambda-api/src/main/java/io/awsobservability/opentelemetry/playground/lambdaapi/HelloLambdaHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/lambda-api/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/classmate-1.5.1.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/classmate-1.5.1.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-codec-1.13.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-codec-1.13.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-logging-1.1.1.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-logging-1.1.1.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-logging-1.1.3.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/commons-logging-1.1.3.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpasyncclient-4.1.4.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpasyncclient-4.1.4.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpclient-4.5.12.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpclient-4.5.12.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpcore-4.4.13.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpcore-4.4.13.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpcore-nio-4.4.13.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/httpcore-nio-4.4.13.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-annotations-2.11.0.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-core-2.11.0.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-core-2.11.0.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-databind-2.11.0.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-databind-2.11.0.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jackson-datatype-jsr310-2.11.0.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.activation-api-1.2.2.jar/META-INF/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.activation-api-1.2.2.jar/META-INF/NOTICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.annotation-api-1.3.5.jar/META-INF/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.annotation-api-1.3.5.jar/META-INF/NOTICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.el-3.0.3.jar/META-INF/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.el-3.0.3.jar/META-INF/NOTICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.xml.bind-api-2.3.3.jar/META-INF/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jakarta.xml.bind-api-2.3.3.jar/META-INF/NOTICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/javax.activation-api-1.2.0.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/javax.servlet-api-4.0.1.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jaxb-api-2.3.1.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jboss-logging-3.4.1.Final.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-client-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-client-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-http-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-http-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-io-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-io-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-security-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-security-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-server-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-server-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-servlet-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-servlet-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-util-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-util-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-webapp-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-webapp-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-xml-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jetty-xml-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/joda-time-2.10.6.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/joda-time-2.10.6.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jooq-3.12.3.jar/META-INF/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/jooq-3.12.3.jar/META-INF/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/lettuce-core-5.3.1.RELEASE.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/lettuce-core-5.3.1.RELEASE.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/licenses.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-api-2.13.3.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-api-2.13.3.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-core-2.13.3.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-core-2.13.3.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-slf4j-impl-2.13.3.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-slf4j-impl-2.13.3.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-to-slf4j-2.13.3.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/log4j-to-slf4j-2.13.3.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/mysql-connector-java-8.0.20.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/mysql-connector-java-8.0.20.jar/META-INF/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/okhttp-4.7.2.jar/okhttp3/internal/publicsuffix/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-aop-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-aop-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-beans-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-beans-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-context-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-context-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-core-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-core-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-expression-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-expression-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-jcl-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-jcl-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-jdbc-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-jdbc-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-tx-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-tx-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-web-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-web-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-webflux-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-webflux-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-webmvc-5.2.6.RELEASE.jar/META-INF/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/spring-webmvc-5.2.6.RELEASE.jar/META-INF/notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-annotations-api-9.0.34.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-annotations-api-9.0.34.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-core-9.0.34.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-core-9.0.34.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-el-9.0.34.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-el-9.0.34.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-websocket-9.0.34.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/tomcat-embed-websocket-9.0.34.jar/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-api-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-api-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-client-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-client-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-common-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-common-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-server-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-server-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-servlet-9.4.30.v20200611.jar/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/licenses/websocket-servlet-9.4.30.v20200611.jar/META-INF/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/otel/collector-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/db/00_setup.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/api-gateway.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/backend.tf.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/bootstrap.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/configs/otel-backend-service.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/ecs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/eks.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/lambda-layers.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/logs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/scripts/terraform/network.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aws-otel-playground/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/AnimalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/AnimalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/WebfluxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/java/com/softwareaws/xray/examples/webflux/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend-webflux/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/collector-config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.jar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/'1.0'/aws-opentelemetry-agent-'1.0'.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/repo/io/opentelemetry/aws-opentelemetry-agent/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/ClearMicroServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/consumer/SampleConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/consumer/StartupApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/model/ApiOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/model/Capture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/repository/CaptureRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/java/com/sample/awsplayground/service/CaptureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captureMicroService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grafana/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/lib/opentelemetry-javaagent-0.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/lib/opentelemetry-javaagent-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/java/com/sample/cassandra/reactive/SpringDataCassandraReactiveApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/java/com/sample/cassandra/reactive/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/java/com/sample/cassandra/reactive/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/java/com/sample/cassandra/reactive/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/java/com/sample/cassandra/reactive/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/test/java/com/baeldung/cassandra/reactive/ReactiveEmployeeRepositoryIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/test/resources/cassandra-init.cql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms1/src/test/resources/cassandra-server.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/AuthAdaptorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/consumer/SampleConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/consumer/TopicConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/java/com/jpmchase/helix/authadaptor/dao/AuthDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/test/java/com/jpmchase/helix/authadaptor/AuthAdaptorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms2/src/test/java/com/jpmchase/helix/authadaptor/controller/AuthControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms3/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observabilityAspects/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observabilityAspects/src/main/java/com/helix/observability/aspect/AspectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observabilityAspects/src/main/java/com/helix/observability/aspect/SpanEnhanceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observabilityAspects/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otel-collector/grafana.db" beforeDir="false" afterPath="$PROJECT_DIR$/../otel-collector/grafana.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prometheus/TODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/jaeger-trace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/xray-trace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../screenshots/zipkin-trace.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1p9olC9PwSrzGEZi5EwpbKBIRK5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db1048b3-38ea-4dc8-840d-4187f4fcec8a" name="Default Changelist" comment="" />
+      <created>1614604817591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614604817591</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614961472429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614961472429" />
+    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1614962371884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614962371884" />
+  </component>
+</project>

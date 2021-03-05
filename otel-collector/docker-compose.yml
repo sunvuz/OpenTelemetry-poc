@@ -1,0 +1,48 @@
+version: '3.3'
+services:
+  jaeger-server:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"
+      - "14268"
+      - "14250"
+  zipkin-server:
+    image: openzipkin/zipkin-slim
+    ports:
+      - '9411:9411'
+  prometheus-server:
+    image: prom/prometheus:latest
+    ports:
+      - '9045:9090'
+    volumes: 
+      - ./prometheus.yaml:/etc/prometheus/prometheus.yml
+  grafana-server:
+    image: grafana/grafana:latest
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yml
+      - ./grafana.db:/var/lib/grafana/grafana.db
+    environment:
+      - GF_AUTH_DISABLE_LOGIN_FORM=true
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+  otel:
+    image: otel/opentelemetry-collector-contrib-dev
+    command: --config /config/collector-config.yml --log-level debug
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_REGION=us-east-1
+      - AWS_PROFILE=adfs
+    ports:
+      - '55680:55680'
+      - '8888:8888'
+    volumes:
+      - ./:/config
+      - ~/.aws:/.aws
+    depends_on:
+      - zipkin-server
+      - jaeger-server
+      - prometheus-server
+      - grafana-server

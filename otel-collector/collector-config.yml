@@ -1,0 +1,49 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+exporters:
+  logging:
+    loglevel: info
+  awsxray:
+    region: 'us-east-1'
+  zipkin:
+    endpoint: "http://zipkin-server:9411/api/v2/spans"
+    format: proto
+  jaeger:
+    endpoint: jaeger-server:14250
+    insecure: true
+  awsemf:
+    region: 'us-east-1'
+  kafka:
+    brokers:
+      - localhost:9092
+    protocol_version: 2.0.0
+  prometheus:
+# Changing default prometheus exporter port
+    endpoint: 0.0.0.0:9999
+
+processors:
+  memory_limiter:
+    limit_mib: 100
+    check_interval: 5s
+service:
+  pipelines:
+    traces:
+      processors:
+      - memory_limiter
+      receivers:
+      - otlp
+      exporters:
+      - logging
+      - awsxray
+      - zipkin
+      - jaeger
+    metrics:
+      processors:
+      - memory_limiter
+      receivers:
+      - otlp
+      exporters:
+      - awsemf
+      - prometheus
