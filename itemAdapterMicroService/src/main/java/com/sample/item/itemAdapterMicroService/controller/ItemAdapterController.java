@@ -21,27 +21,11 @@ public class ItemAdapterController {
     @Autowired
     ItemAdapterService itemAdapterService;
 
-    @PostConstruct
-    public void saveItems() {
-        List<Item> items = new ArrayList<>();
-        items.add(new Item(123, "Headphone", "$200.00"));
-        items.add(new Item(124, "Pendrive", "$50.00"));
-        items.add(new Item(355, "Keyboard", "$30.00"));
-        itemAdapterService.initializeEmployees(items);
-    }
 
     @GetMapping("/list")
     public Flux<Item> getAllItems() throws InterruptedException {
         Flux<Item> items = itemAdapterService.getAllItems();
-        // Call Reative Kafka Producer
-        KafkaProducer kafkaProducer = new KafkaProducer("localhost:9092");
-        kafkaProducer.publishMessages();
-
         return items;
     }
 
-    @GetMapping("/captureflag")
-    public Mono<Boolean> captureFlag() throws InterruptedException {
-        return Mono.just(true);
-    }
 }

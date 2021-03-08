@@ -69,7 +69,7 @@ public class KafkaProducer {
     }
 
     public void publishMessages() throws InterruptedException {
-        int count = 2;
+        int count = 1;
         CountDownLatch latch = new CountDownLatch(count);
         KafkaProducer producer = new KafkaProducer(BOOTSTRAP_SERVERS);
         producer.generateMessages(TOPIC, count, latch);

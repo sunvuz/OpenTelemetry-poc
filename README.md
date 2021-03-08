@@ -56,7 +56,7 @@ cqlsh:reactive> DESCRIBE TABLE item;
 ```sh
 > cd consumeMicroService
 > mvn install
-> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=consume OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-0.15.0-all.jar -jar target/*.jar
+> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=consume OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-all-v1.0.0.jar -jar target/*.jar
 ```
 
 2. Run Adapter Microservice
@@ -64,7 +64,7 @@ cqlsh:reactive> DESCRIBE TABLE item;
 ```sh
 > cd itemAdapterMicroService
 > mvn install
-> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=itemAdapter OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-0.15.0-all.jar -jar target/*.jar
+> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=itemAdapter OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-all-v1.0.0.jar -jar target/*.jar
 ```
 
 
@@ -73,7 +73,7 @@ cqlsh:reactive> DESCRIBE TABLE item;
 ```sh
 > cd shoppingCartService
 > mvn install
-> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=shoppingCart OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-0.15.0-all.jar -jar target/*.jar
+> export AWS_PROFILE=adfs; OTEL_RESOURCE_ATTRIBUTES=service.name=shoppingCart OTEL_EXPORTER=otlp OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:55680 java -javaagent:../otel-collector/opentelemetry-javaagent-all-v1.0.0.jar -jar target/*.jar
 ```
 
 ### End-to-End Test

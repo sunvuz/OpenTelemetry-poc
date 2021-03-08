@@ -100,7 +100,7 @@ public class SampleConsumer {
 
         receiverOptions = ReceiverOptions.create(props);
         dateFormat = new SimpleDateFormat("HH:mm:ss:SSS z dd MMM yyyy");
-        this.webClient = WebClient.builder().baseUrl("http://localhost:9091").build();
+        this.webClient = WebClient.builder().baseUrl("https://jsonplaceholder.typicode.com").build();
     }
 
     public Disposable consumeMessages(String topic, CountDownLatch latch) {
@@ -145,7 +145,7 @@ public class SampleConsumer {
     }
 
     public Flux<String> callWebClient() {
-        return this.webClient.get().uri("/authadapter/captureflag").retrieve().bodyToFlux(String.class);
+        return this.webClient.get().uri("/posts").retrieve().bodyToFlux(String.class);
     }
 
 }
